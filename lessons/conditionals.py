@@ -3,6 +3,9 @@
 
 def less_than_10(num: int) -> None:
     """Tell us if num < 10."""
+    dub: int = num * 2  # 14
+    dub = dub - 1  # 13
+    print(dub)
     if num < 10:  # check if this is true
         print("Small number!")
     else:
@@ -10,7 +13,7 @@ def less_than_10(num: int) -> None:
     print("Hope that helps!")
 
 
-less_than_10(num=2)
+less_than_10(num=7)
 
 
 def wake_up(alarm: bool) -> str:
