@@ -106,12 +106,12 @@ def main(secret: str) -> None:
         if guess == secret:  # This checks if the word is correct and if it is,
             # it returns a "You won" message and quits the program.
             print(f"You won in {turn}/6 turns!")
-            quit()
+            exit()
     print(
         "x/6 - Sorry, try again tomorrow!"
     )  # If the program makes it this far, the user has lost.
     # It returns this message and then quits the program.
-    quit()
+    exit()
 
 
 if __name__ == "__main__":  # This function allows us to run the module.
