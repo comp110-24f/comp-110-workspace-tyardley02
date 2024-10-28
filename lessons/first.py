@@ -7,7 +7,8 @@ def get_first(input: list[int]) -> int:
 
 def remove_first(input: list[int]) -> None:
     """Remove the first element (index 0) of the input list."""
-    input.pop(0)
+    if len(input) > 0:
+        input.pop(0)
 
 
 def remove_and_get_first(input: list[int]) -> int:

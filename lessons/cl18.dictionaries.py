@@ -33,3 +33,6 @@ print("vanilla" in ice_cream)
 for flavor in ice_cream:
     tally: int = ice_cream[flavor]
     print(f"{flavor}: {tally}")
+
+
+print(ice_cream)
